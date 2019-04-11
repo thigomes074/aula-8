@@ -1,0 +1,20 @@
+img {
+    margin-right: 20px;
+    border-radius: 50%;
+}
+ /* todas as img's com a class mao que estão dentro de div */
+div#humano > img.mao {
+    box-shadow: none;
+    transition: box-shadow 1s ease;
+}
+div#humano > img.mao:hover {
+    box-shadow: 0 0 20px blue;
+    transition: box-shadow 1s ease;
+}
+div#humano > img.mao.selecionada {
+    background-color: lightblue;
+    transition: background-color 1s medium;
+}
+div {
+    margin-top: 30px;
+}
